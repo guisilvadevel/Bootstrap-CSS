@@ -1,3 +1,15 @@
+html,body,.capa{
+	height: 100%;
+}
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+}
+
+
 /*Barra de navegação */
 .img-logo{
 	height: 40px;
@@ -10,7 +22,7 @@
 
 nav.navbar-transparente{
 	padding: 15px 0;
-	opacity: 0.6;
+	background: rgba(0,0,0,0.6);
 }
 
 .navbar-brand{
@@ -22,4 +34,51 @@ nav.navbar-transparente{
 }.navbar-transparente .navbar-nav li a:hover {
 	color: #9BF0E1;
 }
-/*Barra de navegação */
+/*/Barra de navegação */
+
+/*Capa*/
+.capa {
+	border: 1px solid red;
+	display: table;
+	width: 100%;
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+/* Buttons main */
+.btn-custom {
+	color:white;
+	border-radius: 25px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0 15px;
+	transition: 0.4s;
+}
+.btn-roxo {
+	background: #7c25f8;
+}.btn-roxo:hover {
+	background: #6207e3;
+	color: #fff;
+}.btn-branco {
+	border: 2px solid #fff;
+}.btn-branco:hover {
+	background: #fff;
+	color: #000;
+}
+/* /Buttons main */
+
+/*/Capa*/
+
+
+
+/* TEXTOS */
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+/* /TEXTOS */
